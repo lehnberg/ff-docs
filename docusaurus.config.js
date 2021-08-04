@@ -3,8 +3,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Fixed Forex',
+  tagline: 'Trust-minimized syntetic assets',
   url: 'https://lehnberg.github.io',
   baseUrl: '/ff-docs/',
   onBrokenLinks: 'throw',
@@ -15,9 +15,9 @@ module.exports = {
   trailingSlash: false,
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Fixed Forex',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Fixed Forex logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -25,11 +25,13 @@ module.exports = {
           type: 'doc',
           docId: 'intro',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Docs',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/contribute', label: 'Contribute', position: 'left'},
+        {to: '/security', label: 'Security', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/lehnberg/ff-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -42,8 +44,20 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Intro',
               to: '/docs/intro',
+            },
+            {
+              label: 'Concepts',
+              to: '/docs/concepts/overview',
+            },
+            {
+              label: 'Guides',
+              to: '/docs/guides/mint-tokens',
+            },
+            {
+              label: 'Technical Reference',
+              to: '/docs/reference/overview',
             },
           ],
         },
@@ -51,16 +65,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Forum',
+              href: 'https://gov.yearn.finance/c/projects/fixed-forex/26',
             },
           ],
         },
@@ -72,13 +78,17 @@ module.exports = {
               to: '/blog',
             },
             {
+              label: 'Security',
+              to: '/security',
+            },
+            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/lehnberg/ff-docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyleft © ${new Date().getFullYear()} Fixed Forex. Built with Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
