@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkff_docs=self.webpackChunkff_docs||[]).push([[280],{9916:function(e){e.exports=JSON.parse('{"permalink":"/ff-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

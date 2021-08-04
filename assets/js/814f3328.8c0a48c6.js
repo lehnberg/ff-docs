@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkff_docs=self.webpackChunkff_docs||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/ff-docs/blog/welcome"},{"title":"Hello","permalink":"/ff-docs/blog/hello-world"},{"title":"Hola","permalink":"/ff-docs/blog/hola"}]}')}}]);
